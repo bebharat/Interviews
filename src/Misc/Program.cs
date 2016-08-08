@@ -9,8 +9,8 @@ namespace Misc
     {
         public static void Main(string[] args)
         {
-            PrintAllSubsets s = new PrintAllSubsets();
-            s.PrintSubsets_recursiveMethod("abc");
+            Permutations s = new Permutations();
+            s.PrintPermutations("abc");
         }
     }
 }
