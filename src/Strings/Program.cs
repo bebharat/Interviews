@@ -9,6 +9,9 @@ namespace Strings
     {
         public static void Main(string[] args)
         {
+            LongestPalindrome s = new LongestPalindrome();
+            s.FindLongestPalindrome("dabccba");
+            Console.Read();
         }
     }
 }
