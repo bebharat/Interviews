@@ -8,11 +8,17 @@ namespace ArraysAndStrings
     public class Program
     {
         public static void Main(string[] args)
-        {
-            var threeSum = new _3Sum();
-
+        {            
             int[] arr = { -1, 0, 1, 2, -1, -4 };
-            threeSum.find3SumToZero(arr);
+
+            //var threeSum = new _3Sum();
+            //threeSum.find3SumToZero(arr);
+
+            var maxSubarray = new MaxSubArray();
+            var max = maxSubarray.FindMaxSubArraySum(arr);
+            Console.WriteLine(max);
+
+
             Console.Read();
         }
     }
