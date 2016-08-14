@@ -23,16 +23,11 @@ namespace ArraysAndStrings
 
             while(left < firstArray.Length && right >= 0)
             {
-                //Console.WriteLine("    Value of left = " + left);
-                //Console.WriteLine("    Value of right = " + right);
-
                 int sum = firstArray[left] + secondArray[right];
 
                 if (Math.Abs(sum - key) < diff)
                 {
-                    //Console.WriteLine("    Old diff = " + diff);
                     diff = Math.Abs(sum - key);
-                    //Console.WriteLine("    New diff = " + diff);
                     solution[0] = firstArray[left];
                     solution[1] = secondArray[right];
                 }
