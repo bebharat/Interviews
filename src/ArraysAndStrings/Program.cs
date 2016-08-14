@@ -22,11 +22,14 @@ namespace ArraysAndStrings
             //var ms = new MergeSort();
             //ms.Sort(arr2);
 
-            int[] arr1 = { 1,2,8,9 }; 
-            int[] arr2 = { 3,6,10,11 };
+            int[] arr1 = { 1, 4, 5, 7 };
+            int[] arr2 = { 10, 20, 30, 40 };
 
-            MedianOfArrays obj = new MedianOfArrays();
-            obj.FindMedian(arr1, arr2);
+            //MedianOfArrays obj = new MedianOfArrays();
+            //obj.FindMedian(arr1, arr2);
+
+            ClosestPair obj = new ClosestPair();
+            obj.FindClosestPair(arr1, arr2, 32);
 
             Console.Read();
         }
