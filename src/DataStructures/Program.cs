@@ -9,6 +9,7 @@ namespace DataStructures
     {
         public static void Main(string[] args)
         {
+            
         }
     }
 }

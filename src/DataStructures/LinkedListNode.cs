@@ -9,5 +9,11 @@ namespace DataStructures
     {
         public int Value { get; set; }
         public LinkedListNode Next { get; set; }
+
+        public LinkedListNode(int value)
+        {
+            this.Value = value;
+            Next = null;
+        }
     }
 }
