@@ -18,8 +18,11 @@ namespace LinkedList
             //var obj = new ReverseLinkedList();
             //var reverseList = obj.Reverse(n);
 
-            var obj = new ReverseLinkedList();
-            var reverseList = obj.Reverse_Recursively(n);
+            //var obj = new ReverseLinkedList();
+            //var reverseList = obj.Reverse_Recursively(n);
+
+            var obj = new RemoveKthNode();
+            var afterRemoval = obj.DeleteK(n, 2);
         }
     }
 }
