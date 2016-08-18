@@ -9,8 +9,13 @@ namespace Misc
     {
         public static void Main(string[] args)
         {
-            Permutations s = new Permutations();
-            s.PrintPermutations("abc");
+            //Permutations s = new Permutations();
+            //s.PrintPermutations("abc");
+
+            var obj = new SpacePermutation();
+            obj.SpacePermute("ABC");
+
+            Console.ReadLine();
         }
     }
 }
