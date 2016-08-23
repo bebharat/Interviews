@@ -27,6 +27,11 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DataStructures", "src\DataS
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Strings", "src\Strings\Strings.xproj", "{5DEBF1CA-9BB2-4728-8CA1-B9C9895B52D6}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Graphs", "src\Graphs\Graphs.xproj", "{31546851-89E8-4A35-BD01-EBE7E2F980FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E6C0AFC-6BC3-4C93-A13E-5BE849DDEF4B} = {6E6C0AFC-6BC3-4C93-A13E-5BE849DDEF4B}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +66,10 @@ Global
 		{5DEBF1CA-9BB2-4728-8CA1-B9C9895B52D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DEBF1CA-9BB2-4728-8CA1-B9C9895B52D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DEBF1CA-9BB2-4728-8CA1-B9C9895B52D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31546851-89E8-4A35-BD01-EBE7E2F980FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31546851-89E8-4A35-BD01-EBE7E2F980FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31546851-89E8-4A35-BD01-EBE7E2F980FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31546851-89E8-4A35-BD01-EBE7E2F980FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,5 +82,6 @@ Global
 		{4040E95A-FC9A-4894-A8DC-96E2E701EEE3} = {F91549A2-E916-41CB-A29B-D509E9EFF986}
 		{6E6C0AFC-6BC3-4C93-A13E-5BE849DDEF4B} = {F91549A2-E916-41CB-A29B-D509E9EFF986}
 		{5DEBF1CA-9BB2-4728-8CA1-B9C9895B52D6} = {F91549A2-E916-41CB-A29B-D509E9EFF986}
+		{31546851-89E8-4A35-BD01-EBE7E2F980FC} = {F91549A2-E916-41CB-A29B-D509E9EFF986}
 	EndGlobalSection
 EndGlobal
